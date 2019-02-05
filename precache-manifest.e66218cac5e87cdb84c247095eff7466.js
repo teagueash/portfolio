@@ -4,7 +4,7 @@ self.__precacheManifest = [
     "url": "/portfolio/static/media/expeditions.4f0742e2.png"
   },
   {
-    "revision": "7b5fa76e75d0eaa28f37",
+    "revision": "57baa48d5dd976ddbe61",
     "url": "/portfolio/static/css/main.5fe875d7.chunk.css"
   },
   {
@@ -24,8 +24,8 @@ self.__precacheManifest = [
     "url": "/portfolio/static/media/tragedy.e9d81a7c.jpg"
   },
   {
-    "revision": "7b5fa76e75d0eaa28f37",
-    "url": "/portfolio/static/js/main.7b5fa76e.chunk.js"
+    "revision": "57baa48d5dd976ddbe61",
+    "url": "/portfolio/static/js/main.57baa48d.chunk.js"
   },
   {
     "revision": "f3f5e666f344009ea1ea1f1e22a4e8f4",
@@ -48,7 +48,7 @@ self.__precacheManifest = [
     "url": "/portfolio/static/media/inference.42b253e7.png"
   },
   {
-    "revision": "9d2b892baf12b93efb1b526f725b1d2c",
+    "revision": "4a29851e898975ae9b9e5e29a2c72d65",
     "url": "/portfolio/index.html"
   }
 ];
