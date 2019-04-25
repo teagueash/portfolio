@@ -34,7 +34,6 @@ const HeaderContainer = styled.div`
     display: flex;
     align-items: center;
     justify-content: center;
-    border-bottom: 1px solid #bcbcbc;
 
     & ${TrailsText} {
       margin-left: 0px !important;

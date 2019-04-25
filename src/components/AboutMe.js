@@ -12,6 +12,7 @@ const AboutContainer = styled(animated.div)`
     line-height: 3;
     margin: 0 0.8em;
     padding: 3em 0;
+    border-top: 1px solid #bcbcbc;
     border-bottom: 1px solid #bcbcbc;
   }
 `;
