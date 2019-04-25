@@ -7,7 +7,8 @@ import coordinatorLogo from '../images/coordinator.jpg';
 import tragedyLogo from '../images/tragedy.jpg';
 import expeditionsLogo from '../images/expeditions.png';
 import ufoLogo from '../images/ufoviz.jpg';
-import vscrollLogo from '../images/vscroll.png';
+import vscrollLogo from '../images/virtual-scroll.png';
+import iscrollLogo from '../images/infinite-scroll.png';
 import zookeeperLogo from '../images/zookeeper.png';
 import fruitrageLogo from '../images/fruitrage.png';
 import inferenceLogo from '../images/inference.png';
@@ -71,6 +72,12 @@ const items = [
     image: vscrollLogo,
     overlay: 'basic virtual scroll',
     link: `${path}/basic-virtual-scroll`,
+  },
+  {
+    name: 'infinite scroll',
+    image: iscrollLogo,
+    overlay: 'observer infinite scroll',
+    link: `${path}/observer-infinite-scroll`,
   },
   {
     name: 'zookeeper',
