@@ -14,10 +14,11 @@ import inferenceLogo from '../images/inference.png';
 
 const PortfolioContainer = styled.div`
   display: grid;
-  grid-gap: 0px;
+  grid-gap: 10px;
   grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
   justify-items: center;
   padding: 0rem 3rem 1.5rem 3rem;
+  margin: 1.5rem 0 1.5rem 0;
 
   @media (max-width: 480px) {
     padding: 5rem 3rem 1.5rem 3rem !important;

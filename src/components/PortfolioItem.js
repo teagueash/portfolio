@@ -20,7 +20,6 @@ const Item = styled.div`
   border-radius: 4px;
   background-image: url(${props => props.img});
   background-size: cover;
-  margin: 1.5rem 0 1.5rem 0;
   cursor: pointer;
   &:hover {
     box-shadow: -1px 10px 29px 0px rgba(0, 0, 0, 0.8);
