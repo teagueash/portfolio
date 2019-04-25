@@ -27,7 +27,7 @@ const Item = styled.div`
   animation: ${fadein} 1s ease 1s 1 forwards;
 
   @media (max-width: 480px) {
-    height: 60vh;
+    height: 70vh;
     width: 90vw;
   }
 `;
@@ -40,6 +40,8 @@ const ItemOverlay = styled.div`
   padding-top: 45px;
 
   @media (max-width: 480px) {
+    font-family: 'Tajawal', Karla;
+    text-transform: uppercase;
     font-size: 2.75em;
   }
 `;
