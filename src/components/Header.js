@@ -6,8 +6,8 @@ const headerItems = ['Teague', 'Ashcraft'];
 const headerConfig = { mass: 5, tension: 2000, friction: 200 };
 
 const TrailsText = styled(animated.div)`
-  font-size: 1rem;
-  font-weight: 400;
+  font-size: 2rem;
+  font-weight: 300;
   line-height: 80px;
   height: 80px;
   float: left;
@@ -17,15 +17,36 @@ const TrailsText = styled(animated.div)`
 `;
 
 const HeaderContainer = styled.div`
-  padding: 1.5rem 0 1.5rem 0;
+  padding: 1.5rem 0;
   height: 5rem;
-  width: 100%;
+  margin: 0 5em;
   & > div {
     display: flex;
     justify-content: center;
   }
   & ${TrailsText}: nth-child(1) {
     margin-left: 15px;
+  }
+
+  @media (max-width: 480px) {
+    margin: 0 1em;
+    height: 50vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-bottom: 1px solid #bcbcbc;
+
+    & ${TrailsText} {
+      margin-left: 0px !important;
+    }
+
+    & ${TrailsText}: nth-child(2) {
+      margin-right: 7px;
+    }
+
+    & div {
+      width: 100%;
+    }
   }
 `;
 
@@ -40,7 +61,7 @@ const Header = () => {
   });
 
   return (
-    <HeaderContainer onClick={() => set(state => !state)}>
+    <HeaderContainer>
       <div>
         {trail.map(({ x, height, ...rest }, index) => (
           <TrailsText

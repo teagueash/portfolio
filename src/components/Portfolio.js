@@ -1,6 +1,7 @@
 import React from 'react';
 import AboutMe from './AboutMe';
 import PortfolioItem from './PortfolioItem';
+import SocialBar from './SocialBar';
 import styled from 'styled-components';
 import coordinatorLogo from '../images/coordinator.jpg';
 import tragedyLogo from '../images/tragedy.jpg';
@@ -13,13 +14,31 @@ import inferenceLogo from '../images/inference.png';
 
 const PortfolioContainer = styled.div`
   display: grid;
-  grid-gap: 25px;
+  grid-gap: 0px;
   grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
   justify-items: center;
   padding: 0rem 3rem 1.5rem 3rem;
+
+  @media (max-width: 480px) {
+    padding: 5rem 3rem 1.5rem 3rem !important;
+    grid-gap: 50px;
+  }
 `;
 
 const path = 'https://github.com/teagueash';
+
+const icons = [
+  {
+    name: 'github',
+    fontAwesomeClass: ['fab', 'github'],
+    url: 'https://github.com/teagueash',
+  },
+  {
+    name: 'linkedin',
+    fontAwesomeClass: ['fab', 'linkedin'],
+    url: 'https://www.linkedin.com/in/teagueash/',
+  },
+];
 
 const items = [
   {
@@ -81,6 +100,7 @@ const Portfolio = () => {
           <PortfolioItem key={project.name} data={project} />
         ))}
       </PortfolioContainer>
+      <SocialBar icons={icons} />
     </>
   );
 };

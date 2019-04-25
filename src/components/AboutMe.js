@@ -4,7 +4,16 @@ import styled from 'styled-components';
 
 const AboutContainer = styled(animated.div)`
   text-align: center;
-  padding: 1.5rem 6rem 3rem 6rem;
+  padding: 2em 3em 3em 3em;
+  margin: 0 1em;
+
+  @media (max-width: 480px) {
+    font-size: 1.25em;
+    line-height: 3;
+    margin: 0 0.8em;
+    padding: 3em 0;
+    border-bottom: 1px solid #bcbcbc;
+  }
 `;
 
 const AboutMe = () => {

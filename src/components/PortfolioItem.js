@@ -26,14 +26,23 @@ const Item = styled.div`
     box-shadow: -1px 10px 29px 0px rgba(0, 0, 0, 0.8);
   }
   animation: ${fadein} 1s ease 1s 1 forwards;
+
+  @media (max-width: 480px) {
+    height: 60vh;
+    width: 90vw;
+  }
 `;
 
 const ItemOverlay = styled.div`
   font-family: phosphate;
   color: #fff;
-  font-size: 2rem;
+  font-size: 2em;
   text-align: center;
   padding-top: 45px;
+
+  @media (max-width: 480px) {
+    font-size: 2.75em;
+  }
 `;
 
 const PortfolioItem = ({ data }) => {
