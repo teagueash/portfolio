@@ -1,15 +1,15 @@
 self.__precacheManifest = [
   {
-    "revision": "f3f5e666f344009ea1ea1f1e22a4e8f4",
-    "url": "/portfolio/static/media/ufoviz.f3f5e666.jpg"
+    "revision": "4f0742e2728d95a2a7111aa3b2f02b94",
+    "url": "/portfolio/static/media/expeditions.4f0742e2.png"
   },
   {
-    "revision": "45202e7b0856b716ef4a",
-    "url": "/portfolio/static/css/main.2859c001.chunk.css"
+    "revision": "6b3a28fdc55f6f2cedfa",
+    "url": "/portfolio/static/css/main.ab475bc6.chunk.css"
   },
   {
-    "revision": "18c925801a8e99f10dbd",
-    "url": "/portfolio/static/js/1.18c92580.chunk.js"
+    "revision": "899e72aaff02e934b39d",
+    "url": "/portfolio/static/js/1.899e72aa.chunk.js"
   },
   {
     "revision": "ee2a100325fd284f0097",
@@ -24,20 +24,16 @@ self.__precacheManifest = [
     "url": "/portfolio/static/media/tragedy.e9d81a7c.jpg"
   },
   {
-    "revision": "4f0742e2728d95a2a7111aa3b2f02b94",
-    "url": "/portfolio/static/media/expeditions.4f0742e2.png"
+    "revision": "6b3a28fdc55f6f2cedfa",
+    "url": "/portfolio/static/js/main.6b3a28fd.chunk.js"
   },
   {
-    "revision": "45202e7b0856b716ef4a",
-    "url": "/portfolio/static/js/main.45202e7b.chunk.js"
+    "revision": "f3f5e666f344009ea1ea1f1e22a4e8f4",
+    "url": "/portfolio/static/media/ufoviz.f3f5e666.jpg"
   },
   {
-    "revision": "ed1e32d67be5285bc5bfe8541fa5bcfb",
-    "url": "/portfolio/static/media/virtual-scroll.ed1e32d6.png"
-  },
-  {
-    "revision": "71440376987e4fd41ee9bf176ae26e92",
-    "url": "/portfolio/static/media/infinite-scroll.71440376.png"
+    "revision": "c2e5f03f276f36636e2b13f4b8fbda1d",
+    "url": "/portfolio/static/media/vscroll.c2e5f03f.png"
   },
   {
     "revision": "c7f103f017202d7865dc70b43f399617",
@@ -52,7 +48,7 @@ self.__precacheManifest = [
     "url": "/portfolio/static/media/inference.42b253e7.png"
   },
   {
-    "revision": "2ea2b613c03012877378177ba038a7a3",
+    "revision": "5af6b63e56923a0fcc5ecb0e9bfdd226",
     "url": "/portfolio/index.html"
   }
 ];
