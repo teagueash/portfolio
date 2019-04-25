@@ -52,7 +52,7 @@ self.__precacheManifest = [
     "url": "/portfolio/static/media/inference.42b253e7.png"
   },
   {
-    "revision": "e88489583387f12197cdc8d585c09b84",
+    "revision": "f5dfb02f13ab1e0ffe1b28a7e0c6631e",
     "url": "/portfolio/index.html"
   }
 ];
