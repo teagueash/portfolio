@@ -4,7 +4,7 @@ self.__precacheManifest = [
     "url": "/portfolio/static/media/ufoviz.f3f5e666.jpg"
   },
   {
-    "revision": "6b2bf7c51b7faf9a209c",
+    "revision": "406effce34aff14f971a",
     "url": "/portfolio/static/css/main.4be6911f.chunk.css"
   },
   {
@@ -28,16 +28,16 @@ self.__precacheManifest = [
     "url": "/portfolio/static/media/expeditions.4f0742e2.png"
   },
   {
-    "revision": "6b2bf7c51b7faf9a209c",
-    "url": "/portfolio/static/js/main.6b2bf7c5.chunk.js"
+    "revision": "406effce34aff14f971a",
+    "url": "/portfolio/static/js/main.406effce.chunk.js"
   },
   {
     "revision": "98ba88af461d3edcb9807be27d3754cc",
     "url": "/portfolio/static/media/virtual-scroll.98ba88af.png"
   },
   {
-    "revision": "8a7adec6a9da3cb7940cc635760f75ce",
-    "url": "/portfolio/static/media/infinite-scroll.8a7adec6.png"
+    "revision": "25d958076332a87cd5cbddfcc8446c17",
+    "url": "/portfolio/static/media/infinite-scroll.25d95807.png"
   },
   {
     "revision": "c7f103f017202d7865dc70b43f399617",
@@ -52,7 +52,7 @@ self.__precacheManifest = [
     "url": "/portfolio/static/media/inference.42b253e7.png"
   },
   {
-    "revision": "74d843e077efc412c84b4fc86026c340",
+    "revision": "e88489583387f12197cdc8d585c09b84",
     "url": "/portfolio/index.html"
   }
 ];
