@@ -21,7 +21,7 @@ const SocialBarIcon = styled.div`
 
   & svg:hover {
     cursor: pointer;
-    color: #388697;
+    color: rgb(56, 134, 151);
   }
 `;
 
