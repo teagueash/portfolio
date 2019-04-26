@@ -4,6 +4,7 @@ import PortfolioItem from './PortfolioItem';
 import SocialBar from './SocialBar';
 import styled from 'styled-components';
 import coordinatorLogo from '../images/coordinator.jpg';
+import emailerLogo from '../images/emailer.jpeg';
 import tragedyLogo from '../images/tragedy.jpg';
 import expeditionsLogo from '../images/expeditions.png';
 import ufoLogo from '../images/ufoviz.jpg';
@@ -48,6 +49,12 @@ const items = [
     image: coordinatorLogo,
     overlay: 'coordinator',
     link: `${path}/lit-review-platform`,
+  },
+  {
+    name: 'emailer',
+    image: emailerLogo,
+    overlay: 'emailer',
+    link: `${path}/emailer`,
   },
   {
     name: 'documenting tragedy',
