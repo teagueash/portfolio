@@ -1,7 +1,6 @@
 import React, { useState } from 'react';
 import { Link } from 'react-router-dom';
 import styled, { keyframes } from 'styled-components';
-import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { PlusSmall } from 'styled-icons/octicons/PlusSmall';
 
 const fadein = keyframes`
@@ -12,15 +11,6 @@ const fadein = keyframes`
     opacity: 1;
   }
 `;
-
-// const ItemAnchor = styled.a`
-//   text-decoration: none;
-//   transition: opacity 0.1s ease-out, background-color 0.1s ease-out;
-//   &:hover {
-//     opacity: 0.8;
-//     background-color: rgba(0, 0, 0, 0.5);
-//   }
-// `;
 
 const ItemContainer = styled.div`
   opacity: 0;
@@ -33,12 +23,9 @@ const ItemContainer = styled.div`
   box-shadow: 0px 1px 5px 0px rgba(0, 0, 0, 0.2), 0px 2px 2px 0px rgba(0, 0, 0, 0.14),
     0px 3px 1px -2px rgba(0, 0, 0, 0.12);
   animation: ${fadein} 1s ease-out 1s 1 forwards;
-  /* transition: background-image 0.1 ease-out; */
-  /* background-blend-mode: saturation; */
 
   &:hover {
     box-shadow: -1px 10px 29px 0px rgba(0, 0, 0, 0.8);
-    /* background-image: linear-gradient(black, black), url(${props => props.img}); */
   }
 
   @media (max-width: 480px) {
@@ -109,10 +96,15 @@ const ItemPlusIcon = styled(PlusSmall)`
   top: 5px;
   left: 205px;
   color: #fff;
+  background-color: rgba(0, 0, 0, 0.5);
   transition: background-color 0.1s ease-out;
 
   &:hover {
     background-color: rgb(56, 134, 151);
+  }
+
+  @media (max-width: 480px) {
+    left: 292px;
   }
 `;
 
